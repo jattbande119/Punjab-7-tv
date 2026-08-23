@@ -1,0 +1,1 @@
+function save(){localStorage.setItem('p7',JSON.stringify({t1:t1.value,t2:t2.value,s1:s1.innerText,s2:s2.innerText}))}function chg(i,v){let e=document.getElementById(i);e.innerText=Math.max(0,Number(e.innerText)+v);save()}save();
