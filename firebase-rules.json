@@ -1,0 +1,1 @@
+{"rules":{"matches":{"$matchId":{".read":true,".write":true}}}}
